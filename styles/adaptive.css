@@ -1,0 +1,54 @@
+@media (max-width: 1176px) {
+.four-section {
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: column;
+	}
+}
+
+@media (max-width: 1176px) {
+.four-content  {
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: column;
+	}
+}
+
+@media (max-width: 1176px) {
+.second-content{
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: column;
+	}
+}
+
+@media (max-width: 1176px) {
+.third-content {
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: column;
+    }
+}
+
+@media (max-width: 1176px) {
+.five-content {
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: column;
+    }
+}
+
+@media (max-width: 1176px){
+ .five-slider  img{
+    width: 95%;
+	}
+}
+
+
+/*@media (max-width: 1176px){
+ #eleven-team {
+    width: 95%;
+    }
+}
+
+*/

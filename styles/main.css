@@ -1,0 +1,426 @@
+header {
+	background: url('../assets/images/first.png') no-repeat center / cover;
+    height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.first-section, .first-title, .seven-title {
+    text-align: center;
+    justify-content: center;
+}
+
+.first-title h1 , .seven-title h1 {
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 2.75px;
+    color: white;
+}
+.second-content {
+	display: flex;
+    justify-content: flex-end;
+}
+
+.second-photo img {
+	width: 600px;
+}
+
+td {
+    font-size: 20px;
+    padding:10px;
+}
+
+.orange {
+    background-color:#F58326;
+}
+.second-photo {
+    flex-wrap: wrap;
+}
+
+.second-box {
+	display: flex;
+    flex-wrap: wrap;
+}
+.second-section {
+	display: flex;
+}
+
+.second-text-content {
+	margin-left: 30px;
+}
+
+.second-text-content p  span, .four-content-1 h1 span, .six-text p span {
+	color: #ff7802;
+}
+
+.second-box {
+	display: flex;
+    margin-left: 30px;
+}
+
+.second-text-devel  {
+	margin-top: 0px;
+	margin-left: 20px;  
+}
+.second-section p {
+	color: #5c5b5b;
+	font-size: 20px;
+	line-height: 1.33;
+	letter-spacing: 0.7px;
+}
+
+.second-box2 p {
+	margin: 0px;
+	align-items: center;
+	justify-content: center;
+}
+
+.third-title h1 , .five-title h1 {
+	color: #5c5b5b;
+    letter-spacing: 1.5px;  
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.third-content-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.third-box {
+	background: #f7f7f9;
+	width: 32%;
+	height: 500px;
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.third-box p {
+	font-size: 24px;
+	line-height: 1.25;
+	text-align: center;
+	color: #5c5b5b;
+}
+
+.four-section {
+	background: #474545;
+}
+
+.four-content-1 h1 {
+	font-size: 41px;
+	font-weight: 600;
+	line-height: 0.61;
+	letter-spacing: 1.2px;
+	color: #ffffff;
+}
+
+.four-content-1 img {
+	padding: 50px 0;
+}
+
+.four-content-2 {
+	padding: 50px 0;
+	display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.four-content {
+	display: flex;
+    justify-content: flex-end;
+}
+
+.four-content-1 {
+	margin-top: 50px;
+    margin-right: 80px;
+}
+
+.four-text-content  {
+	color: white;
+}
+
+.four-box {
+	display: flex;
+    margin-left: 30px;
+}
+
+.four-text-content  {
+	margin-top: 0px;
+	margin-left: 20px;
+   
+}
+.four-text-content p {
+	color: white;
+}
+
+.four-section p {
+	color: white;
+	font-size: 20px;
+	line-height: 1.33;
+	letter-spacing: 0.7px;
+}
+
+.five-slider {
+	display: flex;
+    justify-content: center;
+    position: relative;
+}
+.five-slider  img {
+	width: 1000px;
+	height: 700px;
+	justify-content: center;
+	padding: 90px 0;
+}
+.arrowL img {
+	position: absolute;
+    left: 80px;
+    top: calc(59% - 6.5px);
+}
+
+.arrowR img {
+	position: absolute;
+    right: 80px;
+    top: calc(59% - 6.5px);
+}
+
+.six-input{
+	justify-content: center;
+	text-align: center;
+}
+
+.six-input input button {
+	padding: 20px 0;
+}
+
+.six-input input {
+	width: 260px;
+    border: none;
+    border-bottom: 1px solid #a8a7a7;
+    color: #5c5b5b;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+.six-input button {
+	width: 180px;
+	height: 50px;
+	border-radius: 4px;
+	border: none;
+	box-shadow: 0px 4px 5.1px 0.9px rgba(0, 0, 0, 0.3);
+	background-color: #ff7802;
+	color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.six-text p {
+    font-size: 24px;
+    line-height: 36px;
+    color: #5c5b5b;
+    text-align: center;
+}
+/*//////////////////////////////////*/
+.seven-section {
+	background: url('../assets/images/backAb.jpg') no-repeat center / cover;
+    height: 700px;
+    position: relative;
+    display: flex;
+    align-items: center; 
+}
+
+.eight-content, .nine-content, .ten-content {
+	display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.eight-text, .eight-text2 {
+    margin-top: 60px;
+    padding: 0 20px;
+}
+
+.eight-text2 {
+	margin-top: 20px;
+}
+
+.eight-text p, .eight-text2 p, .ten-text p {
+    color: #5c5b5b;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.7px;
+}
+
+.eight-photo img, .eight-photo2 img {
+	width: 100%;
+}
+
+@media only screen and (max-width: 780px) {
+.eight-text, .eight-text2, .ten-text {
+    text-align: center;
+	}
+}
+
+@media only screen and (max-width: 780px) {
+.eight-content,  .nine-content, .ten-content {
+    flex-direction: column;
+    align-items: center;
+	}
+}
+
+.ten-photo {
+	display: flex; 
+    flex-direction: column; 
+}
+
+.ten-photo-box {
+display: flex;
+}
+
+.photo-box-10 {
+	width: 185px;
+    height: 185px;
+    margin: 10px;
+    background-image: linear-gradient(45deg, #f3af3c, #e2771c);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.photo-box-10 p {
+	font-size: 20px;
+    font-weight: bold;
+}
+
+.all-arws {
+	display: flex;
+	justify-content: center;
+}
+
+.arw {
+	width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.dots {
+	width: 40%;
+	display: flex;
+    justify-content: space-around; 
+}
+
+.dot1, .dot2, .dot3, .dot4 {
+	border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: black;
+}
+
+.eleven-title {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.eleven-title h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+}
+
+.eleven-line {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.eleven-line  img {
+	width: 60px;
+	height: 3px;
+}
+
+#eleven-team{
+	width: 1011px;
+	height: 157px;
+}
+
+#all-team {
+	width: 2969px;
+	display: flex;
+    position: relative; 
+    left: 0px;
+    transition: all ease 1s;
+}
+
+#eleven-team {
+	display: flex;
+	width: 1310px;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.team-content {
+	width: 337px;
+    height: 150px;
+}
+
+.team-photo img {
+	border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+
+.team-photo {
+	display: flex;
+}
+
+.team-inf {
+	margin: 5px;
+}
+
+.team-inf h1 {
+	font-size: 20px;
+	margin: 0px;
+}
+
+.team-inf p {
+	width: 140px;
+	font-size: 17px;
+    color: rgb(77, 86, 86);  
+}
+
+.team-inf img {
+	width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#arwR, #arwL {
+	cursor: pointer;
+}
+
+.eleven-slider {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 0 auto;
+}
+

@@ -1,0 +1,86 @@
+*, 
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+* {
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 20px;
+}
+
+@media (max-width: 1600px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin: 0;
+    position: relative;
+    overflow-x: hidden;
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section{
+	padding: 80px 0;
+}
+
+/* element */
+
+h1, h2, h3, h4, h5, h6, ul ,li, a {
+    margin:  0;
+    padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+footer {
+	background: rgb(37, 37, 37);
+}
+
+footer .footer-content {
+	padding: 80px 0;
+	display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	color:white;
+}
+
+.footer-container {
+	margin: 20px 0;
+}
+
+footer p {
+	width: 300px;
+	opacity: .7;
+	font-size: 14px;
+}
+
+footer h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.footer-photo img  {
+	margin: 20px;
+}

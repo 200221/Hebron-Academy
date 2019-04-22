@@ -254,27 +254,14 @@ td {
 }
 
 .eight-text p, .eight-text2 p, .ten-text p {
-    color: #5c5b5b;
-    font-size: 18px;
+    color: #000000;
+    font-size: 16px;
     line-height: 1.33;
     letter-spacing: 0.7px;
 }
 
 .eight-photo img, .eight-photo2 img {
 	width: 100%;
-}
-
-@media only screen and (max-width: 780px) {
-.eight-text, .eight-text2, .ten-text {
-    text-align: center;
-	}
-}
-
-@media only screen and (max-width: 780px) {
-.eight-content,  .nine-content, .ten-content {
-    flex-direction: column;
-    align-items: center;
-	}
 }
 
 .ten-photo {
@@ -354,13 +341,7 @@ display: flex;
 	height: 3px;
 }
 
-#eleven-team{
-	width: 1011px;
-	height: 157px;
-}
-
 #all-team {
-	width: 2969px;
 	display: flex;
     position: relative; 
     left: 0px;
@@ -369,7 +350,6 @@ display: flex;
 
 #eleven-team {
 	display: flex;
-	width: 1310px;
     overflow: hidden;
     justify-content: space-between;
     margin-top: 100px;
@@ -423,4 +403,3 @@ display: flex;
     justify-content: space-between;
     margin: 100px auto 0 auto;
 }
-

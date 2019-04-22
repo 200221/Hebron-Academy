@@ -7,35 +7,13 @@
 }
 
 @media (max-width: 1176px) {
-.four-content  {
+.second-content, .eight-content, .nine-content, .ten-content,
+ .third-content,.five-content, .four-content, .six-input {
     flex-wrap: wrap;
     height: auto;
     flex-direction: column;
+    align-items: center;
 	}
-}
-
-@media (max-width: 1176px) {
-.second-content{
-    flex-wrap: wrap;
-    height: auto;
-    flex-direction: column;
-	}
-}
-
-@media (max-width: 1176px) {
-.third-content {
-    flex-wrap: wrap;
-    height: auto;
-    flex-direction: column;
-    }
-}
-
-@media (max-width: 1176px) {
-.five-content {
-    flex-wrap: wrap;
-    height: auto;
-    flex-direction: column;
-    }
 }
 
 @media (max-width: 1176px){
@@ -43,12 +21,14 @@
     width: 95%;
 	}
 }
-
-
-/*@media (max-width: 1176px){
- #eleven-team {
-    width: 95%;
+@media (max-width: 1176px) {
+.eight-text p , .eight-text2 p , .ten-text p {
+    text-align: center;
     }
 }
 
-*/
+@media (max-width: 1176px) {
+footer p, .four-text-content p {
+    font-size: 20px;
+    }
+}
